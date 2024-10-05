@@ -30,8 +30,7 @@ import {
   Button,
 } from "reactstrap";
 
-
-const API_URL = "http://localhost:5001/"
+const API_URL = "http://45.142.122.126:5055/"
 
 const getVisitors = (name) => {
   return fetch(API_URL + "all_detected_users", {

@@ -35,7 +35,7 @@ import axios from "axios";
 
 
 
-const API_URL = "http://localhost:5001/"
+const API_URL = "http://45.142.122.126:5055/"
 
 const getUserPhotos = (name) => {
   return fetch(API_URL + "user_photo?name=" + name,{
